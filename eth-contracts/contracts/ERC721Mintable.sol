@@ -192,8 +192,9 @@ contract ERC721 is Pausable, ERC165 {
             "Given tokenId is already owned by the given address"
         );
         require(
-            ownerOfTokenId == msg.sender || isApprovedForAll(ownerOfTokenId),
-            msg.sender
+            ownerOfTokenId == msg.sender ||
+                isApprovedForAll(ownerOfTokenId, msg.sender),
+            "Given sender is not the owner of the given tokenId or is approved"
         );
 
         _tokenApprovals[tokenId] = to;
