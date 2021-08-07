@@ -625,7 +625,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -takes in a 'to' address, tokenId, and tokenURI as parameters
 //      -returns a true boolean upon completion of the function
 //      -calls the superclass mint and setTokenURI functions
-contract ERC721MintableComplete is
+contract ERC721Mintable is
     ERC721Metadata(
         "ModernLiving",
         "ML",
