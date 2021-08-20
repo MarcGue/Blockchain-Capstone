@@ -2,6 +2,26 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product.
 
+## Testing
+
+```
+cd eth-contracts
+truffle test
+```
+
+## Contract Addresses
+
+```
+https://rinkeby.etherscan.io/address/0x5515da8250567d13326f457AA9dEc8C3899988ac
+```
+
+## OpenSea MarketPlace Storefront links
+
+```
+https://testnets.opensea.io/collection/udacity-capstone-2
+
+```
+
 Deploying 'ERC721Mintable'
 
 ---
